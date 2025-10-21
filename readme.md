@@ -28,6 +28,20 @@ project-folder/
 ├── README.md # This guide
 └── image/ # (optional) Folder for images if you add local assets
 
+### 🌐 Site Navigation
+
+All pages include a shared, accessible navigation bar:
+
+| Link | File | Data Test ID |
+|------|------|---------------|
+| Home | `index.html` | `test-nav-home` |
+| About Me | `about.html` | `test-nav-about` |
+| Contact Us | `contact.html` | `test-nav-contact` |
+
+- Uses semantic `<nav>` and keyboard-focusable `<a>` tags.
+- Current page is highlighted automatically via JS (`.active` class).
+- Fully responsive and accessible.
+
 
 ---
 
